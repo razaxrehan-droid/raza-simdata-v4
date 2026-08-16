@@ -1,4 +1,4 @@
-const API_URL = 'https://simdata.faizankhichi.me/?search=';
+const API_URL = 'https://sim-db-api.faizankhichi.me/?search=';
 let currentRawJSON = null;
 
 const form = document.getElementById('searchForm');
