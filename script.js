@@ -87,7 +87,7 @@ async function performSearch() {
     setLoading(true);
 
     try {
-        const response = await fetch(`https://simdata.faizankhichi.me/?search=${encodeURIComponent(query)}`);
+        const response = await fetch(`https://fam-official.serv00.net/api/database.php?number=${encodeURIComponent(queryValue)}`);
         const data = await response.json();
 
         if (!data.ok) {
